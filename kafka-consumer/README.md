@@ -8,21 +8,27 @@ This application demonstrates that how consumer application received message (an
 
 * Start Zookeeper (default port is 2181)
 
-	.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-
+```
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+```
 
 * Kafka broker/server (default port is 9092)
 
-	.\bin\windows\kafka-server-start.bat .\config\server.properties
-
+```
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
 
 * Create Topic with 1 Partition and 1 Replica
 
-	.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic HelloWorldTopic
+```
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic HelloWorldTopic
+```
 
 * Start Consumer
 
-	.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --from-beginning --topic HelloWorldTopic –partition 0
+```
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --from-beginning --topic HelloWorldTopic –partition 0
+```
 
 * Run Spring Boot application
 
