@@ -37,5 +37,5 @@ This application demonstrates how a 'Kafka Producer' can be implemented with spr
 
 - Kafka consumer received message sent by Kafka producer
 
-!(screenshots/kafka_consumer_cli_received_message_sent_by_producer.png)
+![Image Sample](screenshots/kafka_consumer_cli_received_message_sent_by_producer.png)
 
