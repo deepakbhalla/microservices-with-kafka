@@ -45,4 +45,4 @@ This application demonstrates that how consumer application received message (an
 
 - Message sent by producer API can be seen in Kafka consumer console as well. 'kafka-consumer' java application reads the same message which outputs it in console.
 
-!(screenshots/kafka_console_consumer_cli_received_message_sent_by_producer.png)
+![Image Sample](screenshots/kafka_console_consumer_cli_received_message_sent_by_producer.png)
