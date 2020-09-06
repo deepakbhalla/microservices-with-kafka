@@ -37,11 +37,11 @@ This application demonstrates that how consumer application received message (an
 
 - Rest API sent a message to Kafka Consumer
 
-!(screenshots/rest-api-sent-message-via-kafka-producer.png)
+![Image Sample](screenshots/rest-api-sent-message-via-kafka-producer.png)
 
 - Kafka consumer received message sent by Kafka producer
 
-!(screenshots/consumer_received_message_sent_by_producer.png)
+![Image Sample](screenshots/consumer_received_message_sent_by_producer.png)
 
 - Message sent by producer API can be seen in Kafka consumer console as well. 'kafka-consumer' java application reads the same message which outputs it in console.
 
